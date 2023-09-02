@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -9,14 +10,14 @@ function App() {
 React
 
   return (
-    <>
+    <BrowserRouter>
     <Nav/>
     <Hero/>
     <About/>
     <Feature/>
     <Pricing/>
     <Detail/>
-    </>
+    </BrowserRouter>
   )
 }
 

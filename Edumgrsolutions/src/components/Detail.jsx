@@ -1,9 +1,8 @@
 import React from 'react'
 import './Detail.css'
 // import { fadeIn,textVariant } from './utils/motion'
-// import Slider from './Slider/Sliderr'
-// import Slidderr from './Slider/Slidderr'
 import Slider from './Slider/swiper'
+import { FAQ } from '../assets'
 const Detail = () => {
     React
   return (
@@ -28,11 +27,18 @@ const Detail = () => {
     </div>
     <div className='Faqs'>
         <h1>Frequently Asked Questions</h1>
+        <div className='QI'>
         <div className='question'>
-
+          <p>What is Edumgr Solutions ?</p><br></br><br></br>
+          <hr style={{border: '1px solid black'}} className='black-hr'></hr>
+          <p>How many Students can my School enroll in the System ?</p><br></br><br></br>
+          <hr style={{border: '1px solid black'}} className='black-hr'></hr>
+          <p>Are there Additional Charges ?</p><br></br><br></br>
+          <hr style={{border: '1px solid black'}} className='black-hr'></hr>
         </div>
         <div className='image'>
-
+          <img src={FAQ} alt=''/>
+        </div>
         </div>
     </div>
     </>

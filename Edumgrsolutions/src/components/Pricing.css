@@ -16,7 +16,7 @@
     margin-top: 30px;
 }
 .plan .student{
-    border: 1px solid rgb(202, 197, 197);
+    border: 0px solid rgba(242, 237, 237, 0.167);
     height: 470px;
     background-color: white;
 }
@@ -38,7 +38,7 @@
     background-color: rgb(255, 196, 0);
 }
 .plan .school{
-    border: 1px solid rgb(202, 197, 197);
+    border: 0px solid rgba(242, 237, 237, 0.167);
     height: 470px;
     background-color: white;
 }
@@ -61,7 +61,7 @@
 }
 .student .left{
     background-image: linear-gradient(to bottom right,rgb(34, 34, 94),rgb(186, 186, 225));
-    border: 1px solid black;
+    border: 1px solid rgba(242, 237, 237, 0.167);
     height: 45px;
     font-size: large;
     font-weight: bold;
@@ -69,7 +69,7 @@
 }
 .school .right{
     background-image: linear-gradient(to bottom left,rgb(34, 34, 94),rgb(186, 186, 225));
-    border: 1px solid black;
+    border: 1px solid rgba(242, 237, 237, 0.167);
     height: 45px;
     font-size: large;
     font-weight: bold;
@@ -93,7 +93,7 @@
         text-align: center;
     }
     .plan .student{
-        border: 1px solid rgb(202, 197, 197);
+        border: 0px solid rgba(242, 237, 237, 0.167);
         height: 420px;
         width: 70%;
         background-color: white;
@@ -105,7 +105,7 @@
         color: black;  
     }
     .plan .school{
-        border: 1px solid rgb(202, 197, 197);
+        border: 0px solid rgba(242, 237, 237, 0.167);
         height: 420px;
         width: 70%;
         background-color: white;
