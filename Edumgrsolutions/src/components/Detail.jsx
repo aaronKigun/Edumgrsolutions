@@ -28,7 +28,10 @@ const Detail = () => {
     </div>
     <div className='Faqs'>
         <h1>Frequently Asked Questions</h1>
-        <div classnmae>
+        <div className='question'>
+
+        </div>
+        <div className='image'>
 
         </div>
     </div>

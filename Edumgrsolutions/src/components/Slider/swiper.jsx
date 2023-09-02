@@ -1,9 +1,9 @@
 import React, { useRef, useState } from 'react';
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { AES,BMMS,Fatima,SJCVOM } from '../../assets';
 
-// Import Swiper styles
+
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 
 import './swiper.css';
 
-// import required modules
+
 import { EffectCoverflow, Pagination,Navigation,Autoplay } from 'swiper/modules';
 
 export default function App() {
@@ -27,11 +27,11 @@ export default function App() {
             disableOnInteraction:false,
         }}
         coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
+            rotate: 50,          
+            stretch: 0,          
+            depth: 100,          
+            modifier: 1,         
+            slideShadows: true,
         }}
         navigation={true}
         pagination={{
@@ -41,31 +41,20 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img src={AES} />
+          <p>AT-Ta&apos;awuun Educational Services,Minna</p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img src={BMMS} />
+          <p>Blooming Minds Model School, Minna</p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img src={SJCVOM} />
+          <p>St. Joseph College, Vom</p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          <img src={Fatima} />
+          <p>Our Lady Of Fatima Girls&apos; Sec Sch</p>
         </SwiperSlide>
       </Swiper>
     </>
