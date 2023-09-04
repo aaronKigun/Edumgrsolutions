@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router,Route } from 'react-router-dom'
+import {Router } from 'react-router-dom'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -15,21 +15,11 @@ function App() {
     <Router>
     <Nav/>
     <Hero/> 
-     <Route path='/about' element={<About/>}>
      <About/>
-     </Route>
-     <Route path='/feature' element={<Feature/>}>
      <Feature/>
-     </Route>
-     <Route path='/pricing' element={<Pricing/>}>
      <Pricing/>
-     </Route>
-     <Route path='/detail' element={<Detail/>}>
      <Detail/>
-     </Route>
-     <Route path='/contact' element={<Contact/>}>
      <Contact/>
-     </Route>
     <Footer/>
     </Router>
     </>
