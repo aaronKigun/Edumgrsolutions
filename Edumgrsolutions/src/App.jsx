@@ -1,5 +1,5 @@
 import React from 'react'
-import {Switch, Router,Route } from 'react-router-dom'
+import { Router,Route } from 'react-router-dom'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -15,7 +15,6 @@ function App() {
     <Router>
     <Nav/>
     <Hero/> 
-    <Switch>
      <Route path='/about' element={<About/>}>
      <About/>
      </Route>
@@ -31,7 +30,6 @@ function App() {
      <Route path='/contact' element={<Contact/>}>
      <Contact/>
      </Route>
-    </Switch>
     <Footer/>
     </Router>
     </>
