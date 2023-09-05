@@ -79,27 +79,27 @@ class ContactForm extends Component {
         </form>
         <div className='locate'>
         <div className='find'>
-          <img src={Locate} width={30} className='red'/>
+          <img src={Locate} width={30} className='red'/>&nbsp;
           <p className='address'>&nbsp;No 8 After INEC Office Miango Road, Kufang Jos<br></br>&nbsp;Plateau State.</p>
           </div>
           <div className='find'>
-          <img src={Website} width={30} className='red'/>
+          <img src={Website} width={30} className='red'/>&nbsp;
           <p className='address'>www.edumgrsolution.com</p>
           </div>
           <div className='find'>
-          <img src={Facebook} width={30} className='red'/>
+          <img src={Facebook} width={30} className='red'/>&nbsp;
           <p className='address'>&nbsp;Edumgr Solutions</p>
           </div>
           <div className='find'>
-          <img src={Twitter} width={30} className='red'/>
+          <img src={Twitter} width={30} className='red'/>&nbsp;
           <p className='address'>&nbsp;@Edumgr</p>
           </div>
           <div className='find'>
-          <img src={Whatsapp} width={30} className='red'/>
+          <img src={Whatsapp} width={30} className='red'/>&nbsp;
           <p className='address'>&nbsp;+234-803-6363-8690</p>
           </div>
           <div className='find'>
-          <img src={Ticktok} width={30} className='red'/>
+          <img src={Ticktok} width={30} className='red'/>&nbsp;
           <p className='address'>&nbsp;Edumgrsolutions</p>
           </div>
         </div>

@@ -3,6 +3,7 @@ import './Detail.css'
 // import { fadeIn,textVariant } from './utils/motion'
 import Slider from './Slider/swiper'
 import { FAQ } from '../assets'
+import {GoDotFill} from 'react-icons/go'
 const Detail = () => {
     React
   return (
@@ -10,12 +11,30 @@ const Detail = () => {
     <div className='detail'>
         <h1>Our Impact</h1>
         <div className='impact'>
-              <li>50+ Schools Trained</li>
-              <li>200+ Staffs Trained</li>
-              <li>Secure</li>
-              <li>Easier</li>
-              <li>Faster</li>
-              <li>Reliable</li>
+          <div className='mp'>
+          <GoDotFill className='go'/>
+          <p className='mp1'>50+ Schools Trained</p>
+          </div>
+          <div className='mp'>
+          <GoDotFill className='go'/>
+          <p className='mp1'>200+ Staffs Trained</p>
+          </div>
+          <div className='mp'>
+          <GoDotFill className='go'/>
+          <p className='mp1'>Secure</p>
+          </div>
+          <div className='mp'>
+          <GoDotFill className='go'/>
+          <p className='mp1'>Easier</p>
+          </div>
+          <div className='mp'>
+          <GoDotFill className='go'/>
+          <p className='mp1'>Faster</p>
+          </div>
+          <div className='mp'>
+          <GoDotFill className='go'/> 
+          <p className='mp1'>Reliable</p>
+          </div>
         </div>
     </div>
     <div className='slider'>

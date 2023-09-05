@@ -56,8 +56,19 @@
     text-align: justify;
     width: 100%;
 }
+.mp{
+    display: flex;
+}
+.mp1{
+    color: black;
+    margin-top: 8px;
+}
+.go{
+    width: 35px;
+    height: auto;
+}
 .QI img{
-    width: 400px;
+    width: 350px;
     margin-left: 80px;
 }
 .black-hr{
@@ -68,13 +79,12 @@ width: 700px;
     .impact{
         display: flex;
         flex-direction: column;
-        text-align:justify ;
         row-gap: 14px;
     }
     .detail {
         color: black;
         background-image: linear-gradient(to bottom right,rgb(34, 34, 94),rgb(186, 186, 225));
-        height:310px;
+        height:400px;
         max-width:100%;
         padding: 10px 30px;
         text-align: center;

@@ -21,20 +21,20 @@ const Nav = () => {
 				<a href="/contact">Contact Us</a>
 				<a href="/feature">Features</a>
 				<a href="/pricing">Pricing</a>
-        <a href="/about">About us</a>
-        <a href="/account" className='dropdown'>
-          <span>Account</span>
-          <ul class="dropdown-content">
-          <li className='up'>Staff</li>
-          <hr></hr>
-          <li className='down'>Students</li>
-          </ul>
-        </a><RiArrowDropDownLine className='icon'/>
-				<button
-					className="nav-btn nav-close-btn"
-					onClick={showNavbar}>
-					<FaTimes />
-				</button>
+        		<a href="/about">About us</a>
+        		<a href="/account" className='dropdown'>
+          			<span>Account</span>
+          			<ul class="dropdown-content">
+          			   <li className='up'>Staff</li>
+          			   <hr></hr>
+          			   <li className='down'>Students</li>
+          			</ul>
+        			</a><RiArrowDropDownLine className='icon'/>
+			<button
+				className="nav-btn nav-close-btn"
+				onClick={showNavbar}>
+				<FaTimes />
+			</button>
 			</nav>
 			<button
 				className="nav-btn"
