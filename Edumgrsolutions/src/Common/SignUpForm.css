@@ -3,7 +3,7 @@
   justify-content: center;
   color: black;
   background-color: rgba(128, 128, 128, 0.199);
-  height: 750px;
+  height: 800px;
   width: 100%;
   padding: 10px 30px;
 }
@@ -72,7 +72,7 @@ label {
   width: 95%;
   margin-top: 20px;
   padding: 10px;
-  background-color: #007bff; /* Your desired button color */
+  background-color: rgb(98, 98, 185); /* Your desired button color */
   color: black;
   font-size: large;
   font-weight: 700;
@@ -82,5 +82,76 @@ label {
 
 /* Change button color on hover */
 .submit-button:hover {
-  background-color: #0056b3; /* Darker color on hover */
+  background-color: rgb(118, 118, 172); /* Darker color on hover */
+}
+.chooselogo{
+  margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .form-container{
+    justify-content: center;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.199);
+    height: 940px;
+    width: 100%;
+    padding: 10px 30px;
+  }
+  .input-field {
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+  }
+  .input-field1{
+    width: 270px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+  }
+  /* Style dropdown fields */
+  .dropdown-field {
+    width: 240px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    border: none;
+  }
+  .checkbox{
+    margin-top: 20px;
+  }
+  .dropdown-fiel{
+    flex: 1;
+    padding: 11px 1px;
+    border: 1px solid rgb(176, 179, 179);
+  }
+  
+  h1{
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* Style flag dropdown */
+  .flag-dropdown {
+    width: 60px; /* Adjust width as needed */
+  }
+  
+  /* Style phone field */
+  .phone-field {
+    width: 210px;
+    padding: 12px;
+    border: none;
+  }
+  .submit-button {
+  width: 95%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(98, 98, 185); /* Your desired button color */
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
 }

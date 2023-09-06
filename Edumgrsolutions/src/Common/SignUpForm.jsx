@@ -13,6 +13,7 @@ function SignUpForm() {
   const [contactName, setContactName] = useState('');
   const [contactEmail, setContactEmail] = useState('');
   const [contactPhoneNumber, setContactPhoneNumber] = useState('');
+  const [chooseLogo, setChooseLogo] = useState('');
   const [acceptedTerms, setAcceptedTerms] = useState(false);
 
   const handleFormSubmit = (e) => {
@@ -155,7 +156,12 @@ function SignUpForm() {
             onChange={(e) => setContactPhoneNumber(e.target.value)}
           />
         </div>
-
+        <input
+        type='file'
+        className='chooselogo'
+        value={chooseLogo}
+        onClick={(e) => setChooseLogo(e.target.value)}
+        />
         <label>
           <input
             type="checkbox"

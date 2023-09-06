@@ -19,9 +19,9 @@
     text-align: left;
     margin-top: 10px;
   }
-    
+   
   .fill .ip{
-    width: 500px;
+    width: 400px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -36,7 +36,7 @@
   }
   
   .fill button[type="submit"] {
-    background-color: #007bff;
+    background-image:linear-gradient(to bottom right,rgb(34, 34, 94),rgb(186, 186, 225));
     color: #000;
     font-size: 18px;
     font-weight: 700;
@@ -77,11 +77,8 @@
  }
 
   @media screen and (max-width: 600px) {
-    input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  textarea {
-    width: 100%;
+    .fill .ip {
+    width: 200px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -92,7 +89,8 @@
     margin-top: 20px;
   }
   .under{
-    display: block;
+    display:grid;
+    
   }
   .contact{
     justify-content: center;
@@ -111,3 +109,4 @@
   height: 70px;
  }
   }
+  

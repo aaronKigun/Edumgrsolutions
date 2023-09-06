@@ -9,7 +9,7 @@
 }
 .about h2{
     color: black;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .about p{
     color: black;
@@ -34,8 +34,12 @@
     justify-content: center;
     color: black;
     background-color: rgba(128, 128, 128, 0.199);
-    height: 500px;
+    height:600px;
     width: 100%;
     padding: 10px 30px;
+}
+.about h2{
+    color: black;
+    margin-top: 20px;
 }
 } 

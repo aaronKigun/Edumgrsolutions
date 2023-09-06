@@ -79,7 +79,44 @@
 
 
     /* mobile view */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+    .plan {
+      width: 100%;
+      row-gap: 50px;
+    }
+    .pricing{
+        color: black;
+        background-color: rgba(128, 128, 128, 0.199);
+        height: 600px;
+        padding: 10px 30px;
+        text-align: center;
+    }
+    .plan .student{
+        border: 0px solid rgba(242, 237, 237, 0.167);
+        height: 420px;
+        width: 45%;
+        background-color: white;
+        margin-left: 20px;
+    }
+    .plan .student p{
+        margin-top: 20px;
+        min-width: 0px;
+        color: black;  
+    }
+    .plan .school{
+        border: 0px solid rgba(242, 237, 237, 0.167);
+        height: 420px;
+        width: 45%;
+        background-color: white;
+        margin-left: 20px;
+    }
+    .plan .school p{
+        margin-top: 20px;
+        min-width: 0px;
+        color: black;
+    }
+  }
+  @media screen and (max-width: 600px) {
     .plan {
       width: 100%;
       flex-direction: column;
@@ -95,9 +132,9 @@
     .plan .student{
         border: 0px solid rgba(242, 237, 237, 0.167);
         height: 420px;
-        width: 70%;
+        width: 90%;
         background-color: white;
-        margin-left: 65px;
+        margin-left: 20px;
     }
     .plan .student p{
         margin-top: 20px;
@@ -107,9 +144,9 @@
     .plan .school{
         border: 0px solid rgba(242, 237, 237, 0.167);
         height: 420px;
-        width: 70%;
+        width: 90%;
         background-color: white;
-        margin-left: 65px;
+        margin-left: 20px;
     }
     .plan .school p{
         margin-top: 20px;
