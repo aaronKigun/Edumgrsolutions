@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-
+import './SignUpForm.css'
 function SignUpForm() {
   const [schoolName, setSchoolName] = useState('');
-  const [category, setCategory] = useState('Staff');
+  const [category, setCategory] = useState('Select Category');
   const [address, setAddress] = useState('');
   const [country, setCountry] = useState('');
   const [state, setState] = useState('');
@@ -40,19 +40,21 @@ function SignUpForm() {
 
   return (
     <div className="form-container">
+      <h1>SIGN UP</h1>
       <form className="signup-form" onSubmit={handleFormSubmit}>
         <input
           type="text"
-          className="input-field"
+          className="input-field1"
           placeholder="School Name"
           value={schoolName}
           onChange={(e) => setSchoolName(e.target.value)}
         />
 
         <select
-          className="input-field"
+          className="input-field1"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
+          placeholder='Select Category'
         >
           <option value="Staff">Staff</option>
           <option value="Student">Student</option>
@@ -60,7 +62,7 @@ function SignUpForm() {
 
         <input
           type="text"
-          className="input-field"
+          className="input-field1"
           placeholder="Address"
           value={address}
           onChange={(e) => setAddress(e.target.value)}
@@ -97,7 +99,7 @@ function SignUpForm() {
 
         <input
           type="email"
-          className="input-field"
+          className="input-field1"
           placeholder="School Email"
           value={schoolEmail}
           onChange={(e) => setSchoolEmail(e.target.value)}
@@ -105,7 +107,7 @@ function SignUpForm() {
 
         <input
           type="tel"
-          className="input-field"
+          className="input-field1"
           placeholder="School Phone Number"
           value={schoolPhoneNumber}
           onChange={(e) => setSchoolPhoneNumber(e.target.value)}
@@ -113,7 +115,7 @@ function SignUpForm() {
 
         <input
           type="text"
-          className="input-field"
+          className="input-field1"
           placeholder="School Website/URL"
           value={schoolWebsite}
           onChange={(e) => setSchoolWebsite(e.target.value)}
@@ -121,7 +123,7 @@ function SignUpForm() {
 
         <input
           type="text"
-          className="input-field"
+          className="input-field1"
           placeholder="Contact Name"
           value={contactName}
           onChange={(e) => setContactName(e.target.value)}
@@ -129,7 +131,7 @@ function SignUpForm() {
 
         <input
           type="email"
-          className="input-field"
+          className="input-field1"
           placeholder="Contact Email"
           value={contactEmail}
           onChange={(e) => setContactEmail(e.target.value)}
@@ -137,17 +139,17 @@ function SignUpForm() {
 
         <div className="input-group">
           <select
-            className="dropdown-field flag-dropdown"
+            className="dropdown-fiel flag-dropdown"
             value="+234"
             onChange={() => {}}
           >
             <option value="+234">+234</option>
-            {/* Add other country codes */}
+            <option value="+1">+1</option>
           </select>
 
           <input
             type="tel"
-            className="input-field phone-field"
+            className="phone-field"
             placeholder="Contact Phone Number"
             value={contactPhoneNumber}
             onChange={(e) => setContactPhoneNumber(e.target.value)}

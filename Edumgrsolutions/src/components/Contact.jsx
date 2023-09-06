@@ -39,6 +39,7 @@ class ContactForm extends Component {
               value={this.state.name}
               onChange={this.handleInputChange}
               required
+              className='ip'
             />
           </div>
           <div className='fill'>
@@ -50,6 +51,7 @@ class ContactForm extends Component {
               value={this.state.email}
               onChange={this.handleInputChange}
               required
+              className='ip'
             />
           </div>
           <div className='fill'>
@@ -61,6 +63,7 @@ class ContactForm extends Component {
               value={this.state.phoneNumber}
               onChange={this.handleInputChange}
               required
+              className='ip'
             />
           </div>
           <div className='fill'>
@@ -71,6 +74,7 @@ class ContactForm extends Component {
               value={this.state.message}
               onChange={this.handleInputChange}
               required
+              className='ip'
             />
           </div>
           <div className='fill'>

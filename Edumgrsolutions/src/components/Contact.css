@@ -20,26 +20,23 @@
     margin-top: 10px;
   }
     
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  textarea {
+  .fill .ip{
     width: 500px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-top: 8px;
-    background-color: rgb(210, 210, 243);
+    background-color: white;
   }
   
-  textarea {
+  .fill textarea {
     resize: vertical;
     height: 150px;
   }
   
-  button[type="submit"] {
-    background-image: linear-gradient(to bottom right,rgb(34, 34, 94),rgb(186, 186, 225));
+  .fill button[type="submit"] {
+    background-color: #007bff;
     color: #000;
     font-size: 18px;
     font-weight: 700;
@@ -49,7 +46,7 @@
     cursor: pointer;
     transition: background-color 0.3s;
   }
-  button[type="submit"]:hover {
+  .fill button[type="submit"]:hover {
     background-color: #a9c8e9;
   }
     .error-message {
@@ -60,7 +57,7 @@
   .fill{
     padding: 3px 70px;
   }
-  form{
+  .under form{
     margin-top: 20px;
   }
   .locate{
