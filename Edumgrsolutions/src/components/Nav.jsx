@@ -14,6 +14,7 @@ const Nav = () => {
 		);
 	};
   return (
+	<>
 	<header>
 			<h2>Edumgr&nbsp;&nbsp;Solutions</h2>
 			<nav ref={navRef}>
@@ -25,9 +26,13 @@ const Nav = () => {
         		<a href="/account" className='dropdown'>
           			<span>Account</span>
           			<ul class="dropdown-content">
-          			   <li className='up'>Staff</li>
+          			   <li className='up'>
+						<a href='/signup'>Staff</a>
+						</li>
           			   <hr></hr>
-          			   <li className='down'>Students</li>
+          			   <li className='down'>
+						<a href='/signup'>Students</a>
+						</li>
           			</ul>
         			</a><RiArrowDropDownLine className='icon'/>
 			<button
@@ -42,6 +47,7 @@ const Nav = () => {
 				<FaBars />
 			</button>
 		</header>
+</>
 	)
 }
 

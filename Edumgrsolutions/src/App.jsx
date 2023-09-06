@@ -8,6 +8,7 @@ import Detail from './components/Detail'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Home from './components/Home'
+import SignUpForm from './Common/SignUpForm'
 
 function App() {
   return (
@@ -16,11 +17,12 @@ function App() {
     <Nav/>
     <Routes>
     <Route path='/' element={<Home/>}/>
-    <Route path='/about' element={<About/>} exact/>
+    <Route path='/about' element={<About/>}/>
     <Route path='/feature' element={<Feature/>}/>
     <Route path='/Pricing' element={<Pricing/>}/>
     <Route path='/detail' element={<Detail/>}/>
     <Route path='/contact' element={<Contact/>}/>
+    <Route exact path='/signup' element={<SignUpForm/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

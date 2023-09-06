@@ -1,0 +1,64 @@
+/* Center the form container */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the form */
+.signup-form {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style input fields */
+.input-field {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style dropdown fields */
+.dropdown-field {
+  flex: 1;
+  margin-right: 5px;
+}
+
+/* Style flag dropdown */
+.flag-dropdown {
+  width: 80px; /* Adjust width as needed */
+}
+
+/* Style phone field */
+.phone-field {
+  flex: 2;
+}
+
+/* Style the checkbox label */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Style the submit button */
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Your desired button color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change button color on hover */
+.submit-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
