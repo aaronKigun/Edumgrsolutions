@@ -75,64 +75,7 @@
 width: 700px;
 }
 
-@media  screen and (max-width: 900px) {
-    .impact{
-        display: flex;
-        width: 750px;
-    }
-    .detail {
-        color: black;
-        background-image: linear-gradient(to bottom right,rgb(34, 34, 94),rgb(186, 186, 225));
-        height:250px;
-        max-width:100%;
-        padding: 10px 30px;
-        text-align: center;
-    }
-    .slider {
-        width: 100%;
-        display: block;
-        height: 500px;
-    }
-      .slider h1{
-        color: black;
-        margin-top: 30px;
-    }
-    .Faqs{
-        color: black;
-        background-image: linear-gradient(to bottom right,rgb(34, 34, 94),rgb(186, 186, 225));
-        height:840px;
-        max-width:100%;
-        padding: 10px 30px;
-        text-align: center;
-    }
-    .Faqs .QI{
-        display: grid;
-        padding: 20px 20px;
-    }
-    .image{
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .QI img{
-        width: 200px;
-       margin-top: 50px;
-    }
-.black-hr{
-width: 280px;
-} 
-.mp{
-    display: flex;
-}
-.mp1{
-    color: black;
-    margin-top: 8px;
-}
-.go{
-    width: 30px;
-    height: auto;
-}
-}
+
 @media screen and (max-width: 600px) {
     .impact{
         display: flex;

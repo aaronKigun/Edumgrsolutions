@@ -23,7 +23,7 @@ const Nav = () => {
 				<a href="/feature">Features</a>
 				<a href="/pricing">Pricing</a>
         		<a href="/about">About us</a>
-        		<a href="/account" className='dropdown'>
+        		<a href="" className='dropdown'>
           			<span>Account</span>
           			<ul class="dropdown-content">
           			   <li className='up'>
