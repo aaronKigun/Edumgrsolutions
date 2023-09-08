@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
-import {Facebook, Twitter, Whatsapp} from '../assets/index'
+import {Facebook, Twitter, Whatsapp, Edumgr} from '../assets/index'
+
 
 
 const Footer = () => {
@@ -8,6 +9,7 @@ const Footer = () => {
     <div className='footer'>
       <div className='upper'>
         <div>
+        <img src={Edumgr} alt='' width={140}/>
           <h4>Edumgr Solutions</h4>
           </div>
         <div>

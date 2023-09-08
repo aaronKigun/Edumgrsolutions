@@ -9,6 +9,7 @@ import Facebook from "./facebook.png"
 import Twitter from "./twitter.jpeg"
 import Whatsapp from "./whatsapp.png"
 import Ticktok from "./ticktok.png"
+import Edumgr from "./Edumgr.svg"
 
 export {
     AES,
@@ -22,4 +23,5 @@ export {
     Twitter,
     Whatsapp,
     Ticktok,
+    Edumgr,
 };
