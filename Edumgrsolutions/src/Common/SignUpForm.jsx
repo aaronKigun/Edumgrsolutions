@@ -57,6 +57,7 @@ function SignUpForm() {
           onChange={(e) => setCategory(e.target.value)}
           placeholder='Select Category'
         >
+          <option value="Category">...</option>
           <option value="Staff">Staff</option>
           <option value="Student">Student</option>
         </select>
@@ -75,7 +76,7 @@ function SignUpForm() {
             value={country}
             onChange={(e) => setCountry(e.target.value)}
           >
-            <option value="Country">Country</option>
+            <option value='Country'>Nigeria</option>
             {/* Add country options */}
           </select>
 

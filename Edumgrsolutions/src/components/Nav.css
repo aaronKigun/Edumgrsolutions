@@ -16,6 +16,7 @@ header {
 header h2{
   font-size: 23px;
   margin-bottom: 17px;
+  cursor: pointer;
 }
 
 nav a {

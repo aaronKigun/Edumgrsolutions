@@ -16,7 +16,7 @@ const Nav = () => {
   return (
 	<>
 	<header>
-			<h2>Edumgr&nbsp;&nbsp;Solutions</h2>
+			<h2 >Edumgr&nbsp;&nbsp;Solutions</h2>
 			<nav ref={navRef}>
 				<a href="/">Home</a>
 				<a href="/contact">Contact Us</a>
