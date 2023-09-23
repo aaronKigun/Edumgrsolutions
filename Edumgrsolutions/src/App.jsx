@@ -1,6 +1,5 @@
 import React from 'react'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import Nav from './components/Nav'
 import About from './components/About'
 import Feature from './components/Feature'
 import Pricing from './components/Pricing'
